@@ -18,7 +18,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Bitwarden desktop='^9'
 
-feh --bg-scale ~/images/walls/cyber1.jpg &
+feh --bg-scale ~/dotfiles/wallpaper.jpg &
 killall wicd-client
 wicd-client --tray &
 $HOME/.config/polybar/launch.sh
