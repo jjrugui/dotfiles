@@ -3,4 +3,4 @@ stow bspwm
 stow polybar
 stow sxhkd
 stow ranger
-stow .Xresources
+stow beets

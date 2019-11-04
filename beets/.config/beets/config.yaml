@@ -1,0 +1,28 @@
+directory: ~/music
+library: ~/data/musiclibrary.db
+
+pluginpath:
+    - ~/repos/beets/plugins
+
+plugins: fetchart bandcamp
+
+import:
+    move: yes
+
+per_disc_numbering: yes
+
+threaded: yes
+
+paths:
+    default: $albumartist/$album%aunique{}/$track - $title ($bitrate)
+
+embedart:
+    auto: yes
+
+fetchart:
+    minwidth: 400
+    enforce_ratio: 10px
+    sources: filesystem itunes amazon albumart coverart
+
+bandcamp:
+    art: true
